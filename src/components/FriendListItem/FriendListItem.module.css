@@ -1,0 +1,25 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+align-items: center;
+
+    box-sizing: content-box;
+    width: 100%;
+
+    padding: 5px 10px;
+
+   
+
+    background-color: white;
+    border: 4px;
+}
+
+.avatar {
+width: 48px;
+height: 50px;
+}
+
+.name {
+
+}

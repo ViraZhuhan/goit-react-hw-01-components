@@ -1,0 +1,26 @@
+.profile {
+    background-color: white;
+    align-items: center;
+    padding: 60px 30px 40px 30px;
+    text-align: center;
+   
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.description {
+    align-items: center; 
+    margin-bottom: 30px;
+
+}
+
+
+.tag,
+.location {
+    color: darkgray;
+}
