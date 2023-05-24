@@ -11,9 +11,6 @@ import {Container} from 'App/App.styled';
 export const App = () => {
   return (
    <Container
-      style={{
-      
-      }}
     >
       <Profile
         username={user.username}
