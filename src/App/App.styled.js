@@ -5,7 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 24px;
+  padding: 40px;
   font-size: 32px;
-  color: rgb(10,10,10);
-  background-color: rgb(240,240,240);
+  color: ${props => `${props.theme.colors.primaryText}`};
+  background-color: ${props => `${props.theme.colors.primaryBg}`};
 `;
