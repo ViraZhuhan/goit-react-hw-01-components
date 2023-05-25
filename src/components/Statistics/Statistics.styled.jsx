@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { getRandomHexColor } from 'components/GetRandomColors/GetRandomColors';
+import { getRandomHexColor } from '../../helpers/getRandomHexColor';
 
 export const SectionStatistics = styled.section`
   margin: 0 auto;

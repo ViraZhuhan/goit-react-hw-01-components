@@ -6,7 +6,7 @@ export const TransactionHistoryTable = styled.table`
   display: inline-table;
   border-collapse: collapse;
 
-  border: ${props => `2px solid ${props.theme.colors.primaryBg}`};
+  border: ${props => `2px solid ${props.theme.colors.grey}`};
   background-color: ${props => `${props.theme.colors.blue}`};
 `;
 
@@ -30,7 +30,7 @@ export const TableTh = styled.th`
   color: ${props => `${props.theme.colors.white}`};
   text-align: center;
 
-  border: ${props => `2px solid ${props.theme.colors.primaryBg}`};
+  border: ${props => `2px solid ${props.theme.colors.grey}`};
 `;
 
 export const TableTbody = styled.tbody`
@@ -44,12 +44,12 @@ export const TableTd = styled.td`
   color: ${props => `${props.theme.colors.grey}`};
   text-align: center;
 
-  border: ${props => `2px solid ${props.theme.colors.primaryBg}`};
+  border: ${props => `2px solid ${props.theme.colors.grey}`};
 `;
 
 export const TableTr = styled.tr`
   :nth-of-type(2n) {
-    background-: ${props => `${props.theme.colors.primaryBg}`};
+    background-color: ${props => `${props.theme.colors.primaryBg}`};
   }
 
   :hover {
