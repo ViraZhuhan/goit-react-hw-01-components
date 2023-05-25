@@ -10,7 +10,7 @@ export const UserCard = styled.div`
 
   text-align: center;
 
-  border: ${props => `2px solid ${props.theme.colors.primaryBg}`};
+  border: ${props => `2px solid ${props.theme.colors.lightGrey}`};
   border-radius: 8px;
   box-shadow: ${props => `4px 4px 4px 0.1em ${props.theme.colors.lightGrey}`};
 `;
@@ -69,7 +69,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   gap: 4px;
   padding: 8px;
-  border: ${props => `2px solid ${props.theme.colors.primaryBg}`};
+  border: ${props => `0.5px solid ${props.theme.colors.lightGrey}`};
 `;
 
 export const StatsLabel = styled.span`
